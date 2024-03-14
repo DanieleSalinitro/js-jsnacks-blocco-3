@@ -15,5 +15,7 @@ function genArray (){
     return array;
 }
 for (i = 0; i<n; i++){
-
+    let prova;
+    prova=genArray();
+    console.log(prova);
 }
