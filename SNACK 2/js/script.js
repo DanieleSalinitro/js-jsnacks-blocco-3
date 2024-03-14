@@ -7,15 +7,15 @@ function getRndInteger(min, max) {
 
 let n = parseInt(prompt("Inserisci un numero"));
 
+for (let i = 0; i<n; i++){
+    let prova;
+    prova = genArray()
+    console.log(prova);
+}
 function genArray (){
     let array=[];
-    for (i=0; i<10; i++){
+    for (let i=0; i<10; i++){
         array.push(getRndInteger(1,100))
     }
     return array;
-}
-for (i = 0; i<n; i++){
-    let prova;
-    prova=genArray();
-    console.log(prova);
 }
